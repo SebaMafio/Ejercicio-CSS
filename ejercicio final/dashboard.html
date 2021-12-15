@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+    <!-- Menu -->
+    <div class="menu">
+        <div class="code">
+            <div class="hambuerguesa"><i class="fas fa-bars"></i></div>
+            <div class="codespace"><img src="img/logo.png" alt=""> CodeSpace Shop</div>
+        </div>
+        <div class="input-wrapper">
+            <input type="search" class="input" placeholder="Search for anything">
+
+            <svg xmlns="http://www.w3.org/2000/svg" class="input-icon" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd"
+                    d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                    clip-rule="evenodd" />
+            </svg>
+        </div>
+        <div class="conjunto">
+
+            <i class="fas fa-bell"></i>
+            <div class="notificacion"></div>
+            <div> <a href="index.html"><img src="img/user.jpg" alt="User"></a></div>
+        </div>
+
+    </div>
+    <!-- end Menu -->
+
+    <!-- Dasboard -->
+    <div class="wrapper">
+        <div class="navbar">
+            <ul class="btnCrm">
+                <li class="borde"><a href="#" class="active"><i class="fas fa-home"></i> Dashboard</a></li>
+                <li class="borde"><a href="#"><i class="fas fa-user-friends"></i> Clientes</a></li>
+                <li class="borde"><a href="#"><i class="fas fa-box-open"></i> Productos</a></li>
+                <li class="borde"><a href="#"><i class="fas fa-shopping-cart"></i> Sales</a></li>
+                <li class="borde"><a href="#"><i class="fas fa-truck"></i> Shipping</a></li>
+                <li class="borde"><a href="#"><i class="fas fa-chart-pie"></i> Statistics</a></li>
+
+                <button class="addProductos radius">
+                    <div>
+                        <span>Add product </span>
+                    </div>
+                    <div>
+                        <span><i class="fas fa-plus"></i></span>
+
+                    </div>
+
+                </button>
+            </ul>
+
+        </div>
+        <div class="containerMobile">
+            <div>
+                <h2>Dashboard</h2>
+            </div>
+            <!-- Banner -->
+            <div class="seeWhat radius">
+                <div><span><i class="fas fa-star"></i> See What you`ve missed!</span></div>
+                <div><span><a href="#">View more <i class="fas fa-arrow-right"></i></a> </span></div>
+            </div>
+            <div class="bannerPadre">
+                <div class="banner radius">
+                    <div class="icono-1"><i class="fas fa-users"></i></div>
+                    <div class="textoBanner">
+                        <p>Total Clientes</p>
+                        <h3>6389</h3>
+                    </div>
+                </div>
+                <div class="banner radius">
+                    <div class="icono-2"><i class="fas fa-file-invoice-dollar"></i></div>
+                    <div class="textoBanner">
+                        <p>Account balance</p>
+                        <h3>$46.654,05</h3>
+                    </div>
+                </div>
+                <div class="banner radius">
+                    <div class="icono-3"><i class="fas fa-shopping-cart"></i></div>
+                    <div class="textoBanner">
+                        <p>New sales</p>
+                        <h3>372</h3>
+                    </div>
+                </div>
+                <div class="banner radius">
+                    <div class="icono-4"><i class="fas fa-comment-dots"></i></div>
+                    <div class="textoBanner">
+                        <p>Pending contactes</p>
+                        <h3>35</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- fin Banner -->
+            <!-- Tabla -->
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col">CLIENT</th>
+                            <th scope="col">AMOUNT</th>
+                            <th scope="col">STATUS</th>
+                            <th scope="col">DATE</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="nameTable" colspan="2">
+                                <div class="avatar">
+                                    <img src="img/user-1.jpg" alt="User">
+                                </div>
+                                <div class="info">Hans Burger
+                                    <p>Developer</p>
+                                </div>
+                            </td>
+                            <td>$836.45</td>
+                            <td class="approved"> <span> Approved</span></td>
+                            <td>6/10/2020</td>
+                        </tr>
+                        <tr>
+                            <td class="nameTable" colspan="2">
+                                <div class="avatar">
+                                    <img src="img/user-2.jpg" alt="User">
+                                </div>
+                                <div class="info">Sara Curry <p>Designer</p>
+                                </div>
+                            </td>
+                            <td>$86.45</td>
+                            <td class="denied"><span>Denied</span></td>
+                            <td>6/10/2020</td>
+                        </tr>
+                        <tr>
+                            <td class="nameTable" colspan="2">
+                                <div class="avatar">
+                                    <img src="img/user-3.jpg" alt="User">
+                                </div>
+                                <div class="info">Dave Ramone <p>Artist</p>
+                                </div>
+                            </td>
+                            <td>$366.25</td>
+                            <td class="approved"> <span> Approved</span></td>
+                            <td>6/10/2020</td>
+                        </tr>
+                        <tr>
+                            <td class="nameTable" colspan="2">
+                                <div class="avatar">
+                                    <img src="img/user-4.jpg" alt="User">
+                                </div>
+                                <div class="info">Jhon Burger <p>Developer</p>
+                                </div>
+                            </td>
+                            </td>
+                            <td>$836.45</td>
+                            <td class="expired"><span>Expired</span></td>
+                            <td>6/10/2020</td>
+                        </tr>
+                        <tr>
+                            <td class="nameTable" colspan="2">
+                                <div class="avatar">
+                                    <img src="img/user-5.jpg" alt="User">
+                                </div>
+                                <div class="info">Sara Perry <p>Developer</p>
+                                </div>
+                            </td>
+                            </td>
+                            <td>$86.45</td>
+                            <td class="approved"> <span> Approved</span></td>
+                            <td>6/10/2020</td>
+                        </tr>
+                        <tr>
+                            <td class="nameTable" colspan="2">
+                                <div class="avatar">
+                                    <img src="img/user-6.jpg" alt="User">
+                                </div>
+                                <div class="info">Peter Ramone <p>Developer</p>
+                                </div>
+                            </td>
+                            <td>$366.25</td>
+                            <td class="approved"> <span> Approved</span></td>
+                            <td>6/10/2020</td>
+                        </tr>
+                        <tr>
+                            <td class="nameTable" colspan="2">
+                                <div class="avatar">
+                                    <img src="img/user-7.jpg" alt="User">
+                                </div>
+                                <div class="info">Maria Curry<p>Artist</p>
+                                </div>
+                            </td>
+                            <td>$86.45</td>
+                            <td class="approved"> <span> Approved</span></td>
+                            <td>6/10/2020</td>
+                        </tr>
+                        <tr>
+                            <td class="nameTable" colspan="2">
+                                <div class="avatar">
+                                    <img src="img/user-8.jpg" alt="User">
+                                </div>
+                                <div class="info">Marco Polo <p>Developer</p>
+                                </div>
+                            </td>
+                            <td>$366.25</td>
+                            <td class="approved"> <span> Approved</span></td>
+                            <td>6/10/2020</td>
+                        </tr>
+                    </tbody>
+
+
+                    <tfoot>
+                        <tr>
+
+                            <td colspan="4">
+                                <div class="flex-pie">
+                                    <div class="hojas">
+                                        <span>PAGE 1-8 OF 15</span>
+                                    </div>
+
+                                    <div class="numeros">
+
+                                        <ul class="pagination">
+                                            <li><a href="#">«</a></li>
+                                            <li><a class="active radius" href="#">1</a></li>
+                                            <li><a href="#">2</a></li>
+                                            <li><a href="#">3</a></li>
+                                            <li><a href="#">4</a></li>
+                                            <li>...</li>
+                                            <li><a href="#">8</a></li>
+                                            <li><a href="#">9</a></li>
+                                            <li><a href="#">»</a></li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+                            </td>
+
+                        </tr>
+                    </tfoot>
+                </table>
+
+            </div>
+            <footer> <small> &copy; Sebastián Fiorini <a
+                        href="mailto:sebastianmatiasfiorini@gmail.com">sebastianmatiasfiorini@gmail.com</a></small>
+            </footer>
+        </div>
+        <!-- Fin Tabla  -->
+
+    </div>
+    <!-- end Dasboard -->
+
+</body>
+
+</html>
