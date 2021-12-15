@@ -295,14 +295,6 @@ table {
     margin-bottom: 20px;
     
 }
-
-}
-.info>p {
-    font-weight: normal;
-    font-size: 0.9em;
-    margin-top: 2px;
-}
-
 th, td {
     text-align: left;
     padding: 12px;
@@ -329,10 +321,15 @@ tbody>tr {
     display: none;
     margin-right: var(--margin1em);
 }
- .info {
+.info {
     font-weight: bold;
-     
- }
+}
+.info span {
+    display: block;
+    font-weight: normal;
+    font-size: 0.9em;
+    margin-top: 2px;
+}
 .approved {
     color: var(--green-dark);
     font-weight: bold;
